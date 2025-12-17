@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GB | Personal Brand</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-dark: #0f0f0f;
+            --bg-soft: #1a1a1a;
+            --text-main: #f5f5f5;
+            --text-muted: #b5b5b5;
+            --accent: #d6c7b8; /* soft beige luxury */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 60px;
+            background-color: var(--bg-dark);
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: var(--accent);
+        }
+
+        nav a {
+            margin-left: 32px;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 0 60px;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        .hero span {
+            color: var(--accent);
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--text-muted);
+            max-width: 500px;
+        }
+
+        section {
+            padding: 100px 60px;
+            background-color: var(--bg-soft);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+
+        .about p {
+            max-width: 600px;
+            color: var(--text-muted);
+        }
+
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 600px;
+        }
+
+        .skill {
+            border: 1px solid #2a2a2a;
+            padding: 16px;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .projects p {
+            color: var(--text-muted);
+        }
+
+        .contact p {
+            color: var(--text-muted);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 14px;
+            color: var(--text-muted);
+            background-color: var(--bg-dark);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">GB</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>GB<br><span>Creative Developer</span></h1>
+        <p>
+            Building aesthetic digital experiences through code, creativity, and quiet power.
+        </p>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About</h2>
+    <p>
+        I’m GB — a creative thinker and developer blending minimal design with functional code. 
+        Currently building small projects, digital tools, and a long-term brand rooted in clarity, luxury, and intention.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Python</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">Content Creation</div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <p>
+        This website is my first live project. More tools, apps, and creative builds coming soon.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>
+        Email: gayatri.creative1@gmail.com<br />
+        
+    </p>
+</section>
+
+<footer>
+    © 2025 GB. All rights reserved.
+</footer>
+
+</body>
+</html>
